@@ -1,0 +1,173 @@
+#home-main img {
+    opacity: 0.6;
+    height: 120vh;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+#home-main {
+    background-image: linear-gradient(white, #f28123);
+}
+
+.home-page-btns {
+    height: 50px;
+    background: #f28123;
+    width: 25vw;
+    color: white;
+    padding: 12px 0px;
+    font-size: 1rem;
+    text-align: center; 
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.main_row {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+}
+
+.main_row a {
+    color: white;
+}
+
+.home-page-btns:hover {
+    background: #051922;
+    color: #f28123;
+    cursor: pointer;
+    border: 1px solid #f28123;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------
+    order.php 
+ ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.sub-nav li {
+    list-style: none;
+    margin: 5px 0px 5px 5%;
+    float: left;
+    transition: all 0.5s;
+    border: 1px solid white;
+}
+
+.sub-nav li a {
+    color: #f28123;
+    padding: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.sub-nav li:hover {
+    background: #051922;
+    cursor: pointer;
+    border: 1px solid #f28123;
+}
+
+.sub-nav li a:hover {
+    color: #f28123;
+}
+
+#order-main {
+    background-image: linear-gradient(white, #f28123);
+    height: 200vh;
+}
+
+#nav-orders {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    height: 145px;
+    padding-top: 100px;
+    background: #051922;
+    background-attachment: fixed;
+}
+
+#orders-content-box {
+    height: 100%;
+    border-radius: 5px;
+    border: 1px outset red;
+    position: relative;
+    margin-top: 25px;
+    top: 25vh;
+}
+
+.order-date {
+    float: right;
+    margin: 0.7rem;
+}
+
+.order-no {
+    float: left;
+    margin: 0.7rem;
+}
+
+.quantity {
+    margin-left: 0.7rem;
+}
+
+.content-box {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 3px;
+    float: left;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------
+    upload-product.php 
+ ------------------------------------------------------------------------------------------------------------------------------------------*/
+#upload-product {
+    background-image: linear-gradient(white, #f28123);
+    height: 120vh;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------
+    Inventory.php 
+ ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#inventory-main {
+    background-image: linear-gradient(white, #f28123);
+    height: 200vh;
+}
+
+.product-img img {
+    float: left;
+    border: 0.3px outset rgba(219, 215, 215, 0.849);
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------
+    login.php / signup.php
+ ------------------------------------------------------------------------------------------------------------------------------------------*/
+ #login-main-container {
+    background-image: linear-gradient(white, #f28123);
+    height: 200vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#login-main-inner {
+    height: 65rem;
+    border-radius: 20px;
+    border: 2px outset;
+}
+
+#login-main-inner p {
+    color: #f28123;
+}
+ 
+.input_row {
+    padding: 0px 7%;
+    height: 4.5rem;
+}
+
+.text_area {
+    height: 25vh;
+    margin: 0px 7%;
+    width: 86%;
+}

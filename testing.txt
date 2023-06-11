@@ -1,0 +1,29 @@
+Database
+1. Wrong primary keys in subcategory table
+2. Wrong primary keys in product table
+3. No email unique validation in user table
+4. Wrong primary keys in order table
+5. Wrong name given to order table
+6. Wrong primary keys in order detail table
+7. generated less columns in order detail and order table
+
+
+
+Admin Panel
+1. No validation in insert and edit forms.
+2. On edit - redirect to view page
+3. Edit subcategory - category not auto selected, data not showing correctly, no redirection
+4. View subcategory - category name not shown
+5. View product - category and subcategory name not shown
+6. Design issue in all add and edit pages
+7. No authentication on all pages
+8. Edit product - category not auto selected, subcategory not auto selected, data not showing correctly, no redirection
+9. Ajax required in add and edit product
+
+
+User Panel
+1. wrong query in product page
+2. No validation in registration page
+3. No password encryption
+4. Login not working
+5. No product details visible on product page

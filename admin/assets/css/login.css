@@ -1,0 +1,43 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------------
+    login.php / signup.php
+ ------------------------------------------------------------------------------------------------------------------------------------------*/
+#login-main-container {
+    background-image: linear-gradient(white, #f28123);
+    height: 200vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#login-main-inner {
+    height: 65rem;
+    border-radius: 20px;
+    border: 2px outset;
+}
+
+#login-main-inner p {
+    color: #f28123;
+}
+ 
+.input_row {
+    padding: 0px 7%;
+    height: 4.5rem;
+}
+
+.text_area {
+    height: 25vh;
+    margin: 0px 7%;
+    width: 86%;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------
+    add_category.php
+ ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+ .add_category_main{
+    background-image: linear-gradient(white, #f28123) !important;
+    height: 200vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
